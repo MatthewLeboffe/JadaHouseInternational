@@ -1,0 +1,294 @@
+/* -------------------------------------------- */
+/* Formatting fonts & style*/
+* {
+  color: white;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+
+/* -------------------------------------------- */
+/* Formatting navbar */
+.nav-link {
+  font-size: 150%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.second {
+  font-size: 150%;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+.active {
+  text-decoration: underline;
+  color: white;
+}
+
+#test {
+  padding-left: 1em;
+  padding-top: 3em;
+  padding-right: 7em;
+}
+header li {
+  padding-left: 3em;
+}
+
+#ind{
+  padding: 0em;
+  background-image: url(images/home1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: calc(100vw - var(--scrollbar-width));
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+/* formating front page */
+.navbar-brand {
+  width: 25%;
+  padding-left: 2em;
+  float: left;
+}
+
+#frontpagetext {
+  position: relative;
+  text-align: left;
+  height: 20%;
+  width: 25%;
+  top: 20%;
+  left: 10%;
+}
+#frontpagetext h1 {
+  font-size: 300%;
+}
+#frontpagetext h2 {
+  font-size: 150%;
+}
+
+/* Styling for buttons at left and right of screen */
+#donate {
+  bottom: 5%;
+  right: 3%;
+}
+#socials {
+  bottom: 5%;
+  left: 3%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+#socials i {
+  padding-left: 0.6em;
+  padding-right: 0.6em;
+}
+
+.fixedbuttons {
+  position: fixed;
+  border-radius: 2em;
+  background-color: #ff961d;
+  padding: 1% 5% 1% 5%;
+  font-size: 1.5em;
+  border: none;
+  z-index: 7;
+}
+
+.fixedbuttons:hover {
+  background-color: #726292ab;
+}
+
+/* -------------------------------------------- */
+/* Formatting About */
+#about {
+  background-color: #726292ab;
+}
+#about h1 {
+  padding-top: 2%;
+  padding-bottom: 0%;
+}
+
+/* -------------------------------------------- */
+/* Formatting events */
+#event {
+  background-color: #ffac38af;
+  padding: 5em 0em 5em 0em;
+}
+
+/* -------------------------------------------- */
+/* Formatting upcoming  */
+#upcoming {
+  background-color: #726292ab;
+  padding: 5em 0em 5em 0em;
+  color: black;
+}
+
+#upcoming h3 {
+  color: black;
+}
+
+#upcoming p {
+  color: black;
+}
+
+#register {
+  margin-top: 1em;
+  border-radius: 2em;
+  background-color: #ffac38af;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0.3em solid #ff961d;
+  padding: 0.5em 4em 0.5em 4em;
+  font-size: large;
+}
+#register:hover {
+  background-color: #726292ab;
+  border: 0.3em solid #726292;
+}
+
+/* Styling the three events section */
+section .events {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #726292;
+}
+
+/* Styling the links of
+        the events section */
+section .events ul {
+  position: relative;
+  margin: 0;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+/* Styling the lists of the event section */
+section .events ul li {
+  list-style: none;
+  background: #fff;
+  box-sizing: border-box;
+  height: 100px;
+  margin: 15px 0;
+  color: black;
+}
+
+/* Styling the time class of events section */
+section .events ul li .time {
+  position: relative;
+  padding: 20px;
+  background: #262626;
+  box-sizing: border-box;
+  width: 30%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  transition: 0.5s;
+}
+
+/* Styling the hover effect
+            of events section */
+section .events ul li:hover .time {
+  background: #3b2666;
+}
+
+/* Styling the header of time
+            class of events section */
+section .events ul li .time h2 {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  line-height: 0.6em;
+}
+
+/* Styling the texts of time
+        class of events section */
+section .events ul li .time h2 span {
+  font-size: 50%;
+}
+
+/* -------------------------------------------- */
+/* Formatting media  */
+#media {
+  background-color: #ffac38af;
+  padding: 5em 0em 5em 0em;
+}
+
+iframe {
+  width: 100%;
+  height: 30em;
+}
+
+.card {
+  background-color: #26262600;
+  border: none;
+  text-align: center;
+}
+
+.news {
+  width: 25rem;
+}
+
+.yt {
+  width: 90%;
+}
+
+#media .headers > h1 {
+  text-align: left;
+}
+
+/* -------------------------------------------- */
+/* Formatting footer  */
+footer {
+  background-color: #726292;
+}
+footer li {
+  background-color: #262626;
+}
+
+#footerlogo {
+  width: 70%;
+  height: 100%;
+}
+
+footer th {
+  padding-top: 2em;
+}
+
+footer td {
+  padding-right: 1em;
+  padding-left: 1em;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .fixedbuttons,
+  #logoadjust,
+  #frontpagetext,
+  .events {
+    display: none;
+  }
+  .card {
+    width: 100%;
+  }
+  iframe {
+    width: 100%;
+  }
+}
