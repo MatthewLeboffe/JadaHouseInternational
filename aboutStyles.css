@@ -1,161 +1,166 @@
 /* -------------------------------------------- */
 /* Formatting fonts & style*/
 * {
-    color: white;
-    text-align: left;
-  }
-  h1 {
-    text-align: center;
-  }
-  
-  h2 {
-    color: white;
-    font-weight: bold;
-  }
-  
-  body {
-    background-color: #726292ab;
-  }
-  
-  /* -------------------------------------------- */
-  /* Formatting navbar */
-  .nav-link {
-    font-size: 150%;
-    color: rgb(255, 255, 255);
-    font-weight: bold;
-  }
-  
-  .second {
-    font-size: 150%;
-    font-weight: bold;
-  }
-  
-  .aLink {
-    text-decoration: underline;
-    color: white;
-  }
-  
-  #test {
-    padding-left: 1em;
-    padding-top: 3em;
-    padding-right: 3em;
-  }
-  header li {
-    padding-left: 1em;
-  }
-  
-  .navbar-toggler {
-    background-color: white;
-  }
-  /* formating front page */
-  .navbar-brand {
-    width: 25%;
-    padding-left: 1em;
-    float: left;
-  }
-  
-  #frontpagetext {
-    position: relative;
-    text-align: left;
-    height: 20%;
-    width: 25%;
-    top: 20%;
-    left: 10%;
-  }
-  
+  color: white;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  background-color: #726292ab;
+}
+
 /* -------------------------------------------- */
-  /* Formatting About  */
-  
+/* Formatting navbar */
+.nav-link {
+  font-size: 150%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.second {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.aLink {
+  text-decoration: underline;
+  color: white;
+}
+
+#test {
+  padding-left: 1em;
+  padding-top: 3em;
+  padding-right: 3em;
+}
+header li {
+  padding-left: 1em;
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+/* formating front page */
+.navbar-brand {
+  width: 25%;
+  padding-left: 1em;
+  float: left;
+}
+
+#frontpagetext {
+  position: relative;
+  text-align: left;
+  height: 20%;
+  width: 25%;
+  top: 20%;
+  left: 10%;
+}
+
+.navbar-brand {
+  width: 20rem;
+  padding-left: 1em;
+  float: left;
+}
+
+/* -------------------------------------------- */
+/* Formatting About  */
+
 #aboutTerri {
-    margin:5% 10% 10% 10%;
+  margin: 5% 10% 10% 10%;
 }
 
 #terriContent {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 #allFaculty {
-    margin: 0% 10% 0% 10%;
+  margin: 0% 10% 0% 10%;
 }
 
-.card{
-    background-color: #726292;
-    height:100%;
+.card {
+  background-color: #726292;
+  height: 100%;
 }
 
 .card-img-top {
-    border-radius: 50%;
-    margin:0% 5% 3% 5%;
-    width:auto;
-    height:auto;
+  border-radius: 50%;
+  margin: 0% 5% 3% 5%;
+  width: auto;
+  height: auto;
 }
 
 .card-title {
-    text-align:center;
-    padding-top: 4%;
-    text-decoration:underline;  
+  text-align: center;
+  padding-top: 4%;
+  text-decoration: underline;
 }
 .card-text {
-    text-align:center;
+  text-align: center;
 }
 
 .row {
-    margin-top:5%;
+  margin-top: 5%;
 }
 
 .playBtn {
-    width:20%;
-    height:20%;
-    display:inline-block;
+  width: 20%;
+  height: 20%;
+  display: inline-block;
 }
 
 .soundWave {
-    width:65%;
-    padding-left: 5%;
-    margin-left:auto;
-    margin-right:auto;
-    display:inline-block;
-    object-fit:fill;
+  width: 65%;
+  padding-left: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  object-fit: fill;
 }
 
-.soundClip{
-    background-color:#483965;
-    vertical-align:middle;
-    padding:3%;
-    border-radius: 1em;
-    
-    bottom:-10%;
+.soundClip {
+  background-color: #483965;
+  vertical-align: middle;
+  padding: 3%;
+  border-radius: 1em;
+
+  bottom: -10%;
 }
 
-  /* -------------------------------------------- */
-  /* Formatting footer  */
-  footer {
-    background-color: #726292;
+.btn-secondary {
+  background-color: #726292;
+}
+
+/* -------------------------------------------- */
+/* Formatting footer  */
+footer {
+  background-color: #726292;
+}
+
+#footerlogo {
+  width: 70%;
+  height: 100%;
+}
+
+footer th {
+  padding-top: 2em;
+  text-align: center;
+}
+
+footer td {
+  padding-right: 1em;
+  padding-left: 1em;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .col-sm-4 {
+    padding-bottom: 2em;
   }
-  footer li {
-    background-color: #262626;
-  }
-  
-  #footerlogo {
-    width: 70%;
-    height: 100%;
-  }
-  
-  footer th {
-    padding-top: 2em;
-    text-align:center;
-  }
-  
-  footer td {
-    padding-right: 1em;
-    padding-left: 1em;
-    text-align: center;
-  }
-  
-  @media (max-width: 400px) {
-    .col-sm-4 {
-        padding-bottom: 2em;
-    }
-    
-  }
-  
+}
