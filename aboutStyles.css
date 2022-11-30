@@ -172,4 +172,7 @@ footer td {
   .col-sm-4 {
     padding-bottom: 2em;
   }
+  .jadaLogo {
+    display: none;
+  }
 }

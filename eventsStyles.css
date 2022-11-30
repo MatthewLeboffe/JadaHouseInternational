@@ -1,0 +1,213 @@
+/* -------------------------------------------- */
+/* Formatting fonts & style*/
+* {
+  color: white;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3em;
+}
+
+h2 {
+  color: white;
+  text-align: left;
+  font-family: "Fira Sans", sans-serif;
+}
+h3 {
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: #726292ab;
+}
+
+/* -------------------------------------------- */
+/* Formatting navbar */
+.nav-link {
+  font-size: 150%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.second {
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.aLink {
+  text-decoration: underline;
+  color: white;
+}
+
+#test {
+  padding-left: 1em;
+  padding-top: 3em;
+  padding-right: 3em;
+}
+header li {
+  padding-left: 1em;
+}
+
+#ind {
+  padding: 0em;
+  background-image: url(images/home1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: calc(100vw - var(--scrollbar-width));
+}
+
+.navbar-toggler {
+  background-color: white;
+}
+/* formating front page */
+.navbar-brand {
+  width: 20rem;
+  padding-left: 1em;
+  float: left;
+}
+
+/* -------------------------------------------- */
+/* Formatting events */
+
+.container li {
+  font-size: 1.5em;
+  text-align: left;
+}
+
+.date {
+  list-style-type: "📅";
+}
+
+.time {
+  list-style-type: "⏰";
+}
+
+.address {
+  list-style-type: "📍";
+}
+
+.location {
+  list-style-type: "🏛️";
+}
+
+.audience {
+  list-style-type: "👥";
+}
+
+.ongoingHeader {
+  background-color: #726292;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+.textDes {
+  text-align: left;
+  background-color: #ffac38af;
+  padding: 2%;
+}
+.btn {
+  background-color: #ff961d;
+}
+.desc {
+  text-align: left;
+  overflow-wrap: break-word;
+}
+.infoField {
+  display: none;
+}
+
+.container {
+  margin-bottom: 2.5%;
+  margin-top: 2.5%;
+}
+
+.eventImage {
+  width: 100%;
+  height: auto;
+}
+
+.imageContainer {
+  padding: 0%;
+}
+
+.textContainer {
+  padding-left: 3%;
+}
+
+.btn {
+  margin-top: 3%;
+  float: left;
+  color: white;
+  font-weight: bold;
+}
+
+.mobileTitle {
+  display: none;
+}
+
+/* -------------------------------------------- */
+/* Formatting footer  */
+footer {
+  background-color: #726292;
+}
+
+footer li {
+  background-color: #262626;
+}
+
+#footerlogo {
+  width: 70%;
+  height: 100%;
+}
+
+footer th {
+  padding-top: 2em;
+}
+
+footer td {
+  padding-right: 1em;
+  padding-left: 1em;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  * {
+    text-align: center;
+  }
+  #jadaLogo {
+    display: none;
+  }
+  #test {
+    padding: 3% 0% 0% 3%;
+  }
+  .mobileTitle {
+    display: contents;
+  }
+  .desktopTitle {
+    display: none;
+  }
+  .container {
+    margin-top: 10%;
+  }
+  .eventImage {
+    margin: 5% 5% 0% 5%;
+    height: 90%;
+    width: 90%;
+    height: auto;
+  }
+  .textContainer {
+    padding: 5%;
+  }
+  .textDes {
+    margin: 0% 5% 0% 5%;
+  }
+}
